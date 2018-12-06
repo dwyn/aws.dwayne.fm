@@ -1,0 +1,33 @@
+{
+  "url": "https://dwayne.fm",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost-811",
+      "password": "Rm)[kdy<HuB2KXM!%J<.",
+      "database": "ghost_prod"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/ghost/content"
+  },
+  "bootstrap-socket": {
+    "port": 8000,
+    "host": "localhost"
+  }
+}
